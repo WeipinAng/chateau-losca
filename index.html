@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Château Losca" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" type="image/png" href="img/logo.PNG" />
+        <link rel="apple-touch-icon" href="img/logo.PNG" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+
+        <script
+            defer
+            src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+        ></script>
+        <script defer src="js/script.js"></script>
+
+        <title>Cha&#770;teau Losca | Exquisite Flavour</title>
+    </head>
+    <body oncontextmenu="return false">
+        <header class="header">
+            <a href="#">
+                <img class="logo" src="img/logo.png" alt="Château Losca logo" />
+            </a>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a class="main-nav-link" href="index.html">Home</a></li>
+                    <li>
+                        <a class="main-nav-link" href="menus.html">Menus</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="main-nav-link" href="contact.html"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="btn-mobile-nav">
+                <ion-icon
+                    class="icon-mobile-nav"
+                    name="menu-outline"
+                ></ion-icon>
+                <ion-icon
+                    class="icon-mobile-nav"
+                    name="close-outline"
+                ></ion-icon>
+            </button>
+        </header>
+
+        <main>
+            <section class="section-hero">
+                <div class="hero-img-box">
+                    <img src="img/hero.jpg" alt="Delectable food on a plate" />
+                </div>
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">Cha&#770;teau Losca</h1>
+                </div>
+            </section>
+
+            <section class="section-featured">
+                <div class="container">
+                    <h2 class="heading-featured-in">In partnership with</h2>
+                    <div class="logos">
+                        <img
+                            src="img/logos/bistro-and-loung.png"
+                            alt="Bistro and Loung logo"
+                        />
+                        <img
+                            src="img/logos/farm-to-market.png"
+                            alt="Farm to Market logo"
+                        />
+                        <img
+                            src="img/logos/organic-food-product.png"
+                            alt="Organic Food Product logo"
+                        />
+                        <img
+                            src="img/logos/forest-food.png"
+                            alt="Forest Food logo"
+                        />
+                        <img
+                            src="img/logos/violin-musicalization.png"
+                            alt="Violin Musicalization logo"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-event" id="event">
+                <div class="container">
+                    <span class="subheading">Events organised</span>
+                    <h2 class="heading-secondary">
+                        A magical place for an unforgettable event
+                    </h2>
+                </div>
+
+                <div class="container grid grid--2-cols event-grid">
+                    <div class="event-box margin-bottom-large">
+                        <div class="event-img-box">
+                            <img
+                                src="img/events/ugly-sweater-party-event.png"
+                                class="event-img"
+                                alt="Ugly Christmas Jumper Competition - Sweater Party Event"
+                            />
+                        </div>
+                        <h3 class="heading-tertiary">
+                            Ugly Christmas Jumper Competition
+                        </h3>
+                        <p class="event-description">
+                            Share the best (or worst?) dressed on your Facebook
+                            and Instagram page and offer a free meal or tipple
+                            to the wearer of the ugliest jumper.
+                        </p>
+                    </div>
+
+                    <div class="event-box margin-bottom-large">
+                        <div class="event-img-box">
+                            <img
+                                src="img/events/annual-wine-tasting-event.png"
+                                class="event-img"
+                                alt="Annual Wine Tasting Event"
+                            />
+                        </div>
+                        <h3 class="heading-tertiary">Annual Wine Tasting</h3>
+                        <p class="event-description">
+                            Team up with a brewery or wine merchant to pair
+                            drinks with your food and charge a flat fee for the
+                            tasting night.
+                        </p>
+                    </div>
+
+                    <div class="event-box margin-bottom-large">
+                        <div class="event-img-box">
+                            <img
+                                src="img/events/french-cuisine-taste-event.png"
+                                class="event-img"
+                                alt="French Cuisine Taste Event"
+                            />
+                        </div>
+                        <h3 class="heading-tertiary">
+                            French Cuisine Taste Event
+                        </h3>
+                        <p class="event-description">
+                            Get to taste the traditional meals and our head chef
+                            briefly explained the cooking methods unique to
+                            France. French cuisine contains signature
+                            ingredients used all around the country and dishes
+                            that have come to be associated with French cuisine.
+                        </p>
+                    </div>
+
+                    <div class="event-box">
+                        <div class="event-img-box">
+                            <img
+                                src="img/events/christmas-dining-course.png"
+                                class="event-img"
+                                alt="Christmas Dining Course"
+                            />
+                        </div>
+                        <h3 class="heading-tertiary">
+                            Christmas Dining Course
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-menus section-home-menu" id="menus">
+                <div class="container center-text">
+                    <span class="subheading">Menus</span>
+                    <h2 class="heading-secondary">
+                        We offer sumptuous and regional cuisine
+                    </h2>
+                </div>
+
+                <div class="container grid grid--3-cols margin-bottom-md">
+                    <div class="menu">
+                        <img
+                            src="img/menus/menu-2.jpg"
+                            class="menu-img"
+                            alt="Avocado Salad"
+                        />
+                        <div class="menu-content">
+                            <p class="menu-title">Avocado Salad</p>
+                            <p class="menu-description">
+                                Avocado loaded with veggies, juicy tomatoes,
+                                crisp cucumber, lemon juice and vinegar.
+                            </p>
+                            <p class="menu-price">RM 45</p>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <img
+                            src="img/menus/menu-6.jpg"
+                            class="menu-img"
+                            alt="Mediterranean Scallops"
+                        />
+                        <div class="menu-content">
+                            <p class="menu-title">Mediterranean Scallops</p>
+                            <p class="menu-description">
+                                Grilled Mediterranean scallops with Tomato
+                                Salsa.
+                            </p>
+                            <p class="menu-price">RM 89</p>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <img
+                            src="img/menus/menu-11.jpg"
+                            class="menu-img"
+                            alt="Monkey Shoulder Cheesecake"
+                        />
+                        <div class="menu-content">
+                            <p class="menu-title">Monkey Shoulder Cheesecake</p>
+                            <p class="menu-description">
+                                Ginger nut base with Monkey Shoulder whisky
+                                flavoured cream cheese topping.
+                            </p>
+                            <p class="menu-price">RM 45</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container all-menus">
+                    <a href="menus.html" class="link">See all menus &rarr;</a>
+                </div>
+            </section>
+
+            <section class="section-testimonials" id="testimonials">
+                <div class="testimonials-container">
+                    <span class="subheading">Testimonials</span>
+                    <h2 class="heading-secondary">
+                        A gastronomic restaurant that is unmissable
+                    </h2>
+
+                    <div class="testimonials">
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/peter-parker.jpeg"
+                                        alt="Photo of customer Peter Parker"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Peter Parker</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star-outline"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                What an experience! The interior is
+                                breathtaking. I felt like I was dining inside a
+                                museum. The service staff is delightful and
+                                attentive. The food although a bit on the
+                                high-end price was worth it. I would definitely
+                                come back to this place again.
+                            </blockquote>
+                        </figure>
+
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/ariel.jpg"
+                                        alt="Photo of customer Ariel"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Ariel</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star-outline"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star-outline"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                Absolutely perfect and recommended for a date
+                                with someone special. To avoid disappointment
+                                and a long wait, you will need to book a
+                                reservation in advance in order to enjoy this
+                                very high end restaurant.
+                            </blockquote>
+                        </figure>
+
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/ramonda.jpg"
+                                        alt="Photo of customer Ramonda"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Ramonda</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                We enjoyed the Valentine's menu! Everything was
+                                spectacular, the atmosphere is great and food
+                                was absolutely delicious. Highly recommend this
+                                beautiful restaurant!
+                            </blockquote>
+                        </figure>
+
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/sullivan.jpg"
+                                        alt="Photo of customer Sullivan"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Sullivan</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star-outline"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                We had dinner with friends, everything was
+                                perfect, the food, the service and atmosphere.
+                                The wine pairing was perfect. Looking forward to
+                                coming back.
+                            </blockquote>
+                        </figure>
+
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/jack-sparrow.jpeg"
+                                        alt="Photo of customer Jack Sparrow"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Jack Sparrow</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                First time here.Exceptional food! Every dish was
+                                amazing. Complementary corn bread and butter was
+                                very good. Good variety to choose from for
+                                mains, vegetarian, chicken, fish, beef. We were
+                                very impressed. Only wished for a bigger portion
+                                as it was too good but just wasn't filling
+                                enough.
+                            </blockquote>
+                        </figure>
+
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/darth-vader.jpg"
+                                        alt="Photo of customer Darth Vader"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Darth Vader</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                Truly a spectacular experience. The food was
+                                amazing and the service was too. From the prawn
+                                and escargot starters to the Maine lobster main,
+                                we are able to taste the freshness of the
+                                ingredients and an iconic taste of where those
+                                ingredients were from. The oysters are some of
+                                the best I've had!
+                            </blockquote>
+                        </figure>
+
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/mike.jpg"
+                                        alt="Photo of customer Mike"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Mike</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                If you're looking for fine steak this is the
+                                place. Nice atmosphere and servers were super
+                                attentive and the service was implacable. They
+                                noticed I had a cold and gave me a pot of ginger
+                                tea. Food was awesome, Perfect median streak and
+                                great cod fish. Will definitely visit again.
+                            </blockquote>
+                        </figure>
+
+                        <figure class="testimonial">
+                            <div class="testimonial-profile">
+                                <div class="testimonial-profile-img">
+                                    <img
+                                        class="testimonial-img"
+                                        src="img/testimonials/cho-chang.jpg"
+                                        alt="Photo of customer Cho Chang"
+                                    />
+                                </div>
+                                <div class="testimonial-profile-text">
+                                    <p class="testimonial-name">Cho Chang</p>
+                                    <div class="testimonial-rating-box">
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star"
+                                            ></ion-icon
+                                        ></span>
+                                        <span
+                                            ><ion-icon
+                                                class="testimonial-rating"
+                                                name="star-outline"
+                                            ></ion-icon
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote class="testimonial-text">
+                                Food was definitely great! I highly recommend
+                                cod fish and scallops. Super fresh and sweet.
+                                The souffle wasn't impressive. Services were
+                                great overall but prices were expected to be on
+                                the higher side.
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="gallery">
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-1.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-2.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-3.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-4.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-5.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-6.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-7.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-8.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-9.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-10.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-11.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img
+                            src="img/gallery/gallery-12.jpg"
+                            alt="Photo of beautifully arranged food"
+                        />
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section-cta" id="cta">
+                <div class="container">
+                    <div class="cta">
+                        <div class="cta-text-box">
+                            <h2 class="heading-secondary">
+                                Make a reservation
+                            </h2>
+                            <p class="cta-text">
+                                There are currently three different areas
+                                available for booking.
+                            </p>
+                            <p class="cta-text">
+                                <strong>Indoors</strong> - We have limited
+                                interior tables. Join us and enjoy indoor dining
+                                violin at 8pm to 10 pm. &nbsp; &nbsp; &nbsp;
+                                &nbsp;
+                                <span class="cta-link">Reserve now</span>
+                            </p>
+                            <p class="cta-text">
+                                <strong>Cabins</strong> - Enclosed outdoor
+                                seating. It gives you an entire privacy space
+                                for your family or spouses. &nbsp; &nbsp; &nbsp;
+                                &nbsp;
+                                <span class="cta-link">Reserve now</span>
+                            </p>
+                            <p class="cta-text">
+                                <strong>Terrace</strong> - You may experience
+                                the beautiful lakeside views while enjoying
+                                lovely meals. &nbsp; &nbsp; &nbsp; &nbsp;
+                                <span class="cta-link">Reserve now</span>
+                            </p>
+                            <p class="cta-text-policy">
+                                Policy Regarding Cancellations - Please show up
+                                for your reservation or cancel within 24 hours
+                                to avoid being charged RM 50 per person late
+                                cancellation fee. Please be aware we only accept
+                                cancellations made directly through email.
+                            </p>
+                        </div>
+                        <div
+                            class="cta-img-box"
+                            role="img"
+                            aria-label="Ambience of restaurant"
+                        ></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container grid grid--footer">
+                <div class="logo-col">
+                    <a href="#" class="footer-logo">
+                        <img
+                            class="logo"
+                            src="img/logo.png"
+                            alt="Château Losca logo"
+                        />
+                    </a>
+
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="#"
+                                ><ion-icon
+                                    class="social-icon"
+                                    name="logo-instagram"
+                                ></ion-icon
+                            ></a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#"
+                                ><ion-icon
+                                    class="social-icon"
+                                    name="logo-facebook"
+                                ></ion-icon
+                            ></a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#"
+                                ><ion-icon
+                                    class="social-icon"
+                                    name="logo-twitter"
+                                ></ion-icon
+                            ></a>
+                        </li>
+                    </ul>
+
+                    <p class="copyright">
+                        &copy; 2023 by Cha&#770;teau Losca | Weipin Ang. All
+                        rights reserved.
+                    </p>
+                </div>
+
+                <div class="address-col">
+                    <p class="footer-heading">Contact us</p>
+                    <address class="contacts">
+                        <p class="address">
+                            LG2 Syopz Mall, 1 Jalan Taylor's Subang Jaya, 47500
+                            Selangor
+                        </p>
+                        <p>
+                            <a
+                                class="footer-link"
+                                href="tel:0164758081
+              "
+                                >0164758081 </a
+                            ><br />
+                            <a
+                                class="footer-link"
+                                href="mailto:chateaulosca@gmail.com
+              "
+                                >chateaulosca@gmail.com
+                            </a>
+                        </p>
+                    </address>
+                </div>
+
+                <div class="hours-col">
+                    <p class="footer-heading">Opening hours</p>
+                    <div class="opening-hours-box">
+                        <p class="opening-hours">Open every day</p>
+                        <p class="opening-hours">
+                            Restaurant: <br />10 am to 3pm |<br />7pm to 11pm
+                        </p>
+                        <p class="opening-hours">
+                            Lounge Bar:<br />
+                            9am to 11pm
+                        </p>
+                    </div>
+                </div>
+
+                <nav class="nav-col">
+                    <p class="footer-heading">Directory</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">Home</a></li>
+                        <li>
+                            <a class="footer-link" href="menus.html">Menus</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="about.html"
+                                >About Us</a
+                            >
+                        </li>
+                        <li>
+                            <a class="footer-link" href="contact.html"
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
